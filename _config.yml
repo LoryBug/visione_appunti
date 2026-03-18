@@ -1,0 +1,48 @@
+# Jekyll Configuration for Visione Artificiale Course
+
+title: Visione Artificiale - Corso Magistrale
+description: Appunti interattivi del corso di Visione Artificiale
+baseurl: "/visione-artificiale"
+url: "https://username.github.io"
+
+# Theme: Just the Docs
+remote_theme: just-the-docs/just-the-docs
+color_scheme: dark
+
+# Customization
+aux_links:
+  "GitHub": "https://github.com/username/visione-artificiale"
+  "BIOLAB UniBO": "http://biolab.csr.unibo.it/"
+
+# Navigation
+nav_sort: case_insensitive
+
+# Search
+search_enabled: true
+search.button: true
+
+# Heading anchors
+heading_anchors: true
+
+# Mermaid diagram support
+mermaid:
+  version: 10
+
+# Build settings
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  input: GFM
+  hard_wrap: false
+
+# Exclude these files from the build
+exclude:
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+
+# Include these files
+include:
+  - _redirects

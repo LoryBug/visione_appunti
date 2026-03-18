@@ -1,0 +1,31 @@
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata
+*.gem
+*.gemspec
+Gemfile.lock
+
+# Ruby
+.bundle/
+vendor/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build
+node_modules/
+dist/
+
+# Appunti temp
+appunti/
