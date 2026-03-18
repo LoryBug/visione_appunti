@@ -29,3 +29,13 @@ dist/
 
 # Appunti temp
 appunti/
+
+# PDF delle slide (non versionare)
+*.pdf
+
+# Esercitazioni lab e notebook (troppo grandi)
+Lab/
+*.ipynb
+
+# Progetti e tesi
+Progetti
