@@ -2,8 +2,8 @@
 
 title: Visione Artificiale - Corso Magistrale
 description: Appunti interattivi del corso di Visione Artificiale
-baseurl: "/visione-artificiale"
-url: "https://username.github.io"
+baseurl: "/visione_appunti"
+url: "https://lorybug.github.io"
 
 # Theme: Just the Docs
 remote_theme: just-the-docs/just-the-docs
@@ -11,7 +11,7 @@ color_scheme: dark
 
 # Customization
 aux_links:
-  "GitHub": "https://github.com/username/visione-artificiale"
+  "GitHub": "https://github.com/LoryBug/visione_appunti"
   "BIOLAB UniBO": "http://biolab.csr.unibo.it/"
 
 # Navigation
